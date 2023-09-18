@@ -1,0 +1,501 @@
+.background {
+  background-image: url(../images/snapedit_1694959418538.png);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  filter: blur(11px);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: -10px;
+  transform: scale(1.1);
+  position: fixed;
+  pointer-events: none;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF ;
+  -ms-user-select: none; 
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+  user-select: none; 
+}
+.section-1 {
+  width: 778px;
+  height: 343px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: rgba(19, 18, 47, 0.40);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  z-index: 12;
+  top: 50px;
+  left: 66px;
+  border: none;
+  margin-right: 10px;
+  opacity: 0;
+  animation: ani 0.7s forwards;
+}
+.section-2 {
+  width: 416px;
+  height: 343px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: rgba(19, 18, 47, 0.40);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  z-index: 12;
+  top: 50px;
+  left: 858px;
+  border: none;
+  margin-right: 10px;
+  opacity: 0;
+  animation: ani 0.9s forwards;
+}
+.section-right {
+  width: 500px;
+  height: 870px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: rgba(19, 18, 47, 0.40);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  z-index: 12;
+  top: 50px;
+  right: 76px;
+  border: none;
+  opacity: 0;
+  animation: ani 1s forwards;
+}
+
+#section-main-img {
+  background-image: url(../images/snapedit_1694959418538.png);
+  width: 1210px;
+  height: 517px;
+  position: absolute;
+  z-index: 23px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 27px;
+  pointer-events: none;
+  top: 400px;
+  left: 66px;
+  margin-right: 10px;
+  margin-top: 10px;
+  opacity: 0;
+  animation: ani 1.3s forwards;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- Content-1 ----------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.name-city {
+  font-weight: 400;
+  margin: 30px 0 0 20px;
+}
+
+.temp {
+  margin: 303px 0 0  21px;
+  font-size: 70px;
+  font-weight: 500;
+}
+.time-week {
+  margin: 10px 0 0  21px;
+  font-size: 20px;
+  align-items: center;
+}
+
+
+hr {
+  display: inline-block;
+}
+
+.content-temp {
+  font-size: 80px;
+  font-weight: 600;
+}
+.content-name {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.content-left {
+  margin: 60px 0 0 31px;
+  display: inline-block;
+}
+
+.content-today {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.content-time {
+  font-size: 20px;
+}
+
+#content-right {
+  background-image: url(../images/FewClouds.png);
+  width: 325px;
+  height: 297px;
+  float: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 19px 21px 0 0;
+  pointer-events: none;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- Content-2 ----------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.img-wind {
+  background-image: url(../images/WeatherIcon\ -\ 1-6.png);
+  width: 33px;
+  height: 30px;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-right: 24px;
+}
+
+.info-speed {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.info-wind {
+  margin: 32px 20px 40px 20px;
+  text-align: center;
+}
+
+.section-info-Wind {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+
+.info-week {
+  display: inline-block;
+}
+
+.day-temp {
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 20px;
+  margin-left: 20px;
+
+}
+
+
+.ip {
+  margin-left: 222px;
+}
+
+.iw {
+  width: 100px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- Content-2 ----------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+.next-day1 {
+  width: 480px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: rgba(18, 19, 47, 0.40);
+  backdrop-filter: blur(0px);
+  margin: 20px 10px;
+  opacity: 0;
+  animation: ani 0.6s forwards;
+}
+.next-day2 {
+  width: 480px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: rgba(18, 19, 47, 0.40);
+  backdrop-filter: blur(0px);
+  margin: 20px 10px;
+  opacity: 0;
+  animation: ani 0.8s forwards;
+}
+.next-day3 {
+  width: 480px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: rgba(18, 19, 47, 0.40);
+  backdrop-filter: blur(0px);
+  margin: 20px 10px;
+  opacity: 0;
+  animation: ani 1s forwards;
+}
+.next-day4 {
+  width: 480px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: rgba(18, 19, 47, 0.40);
+  backdrop-filter: blur(0px);
+  margin: 20px 10px;
+  opacity: 0;
+  animation: ani 1.2s forwards;
+}
+.next-day5 {
+  width: 480px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: rgba(18, 19, 47, 0.40);
+  backdrop-filter: blur(0px);
+  margin: 20px 10px;
+  opacity: 0;
+  animation: ani 1.4s forwards;
+}
+.week-wrapper {
+  justify-content: space-around;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+.wi-1 {
+  background-image: url(../images/showerRain.png);
+  width: 100px;
+  height: 90px;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-top: 23px;
+  border: none;
+
+}
+.wi-2 {
+  background-image: url(../images/showerRain.png);
+  width: 100px;
+  height: 90px;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-top: 23px;
+  border: none;
+
+}
+.wi-3 {
+  background-image: url(../images/FewClouds.png);
+  width: 100px;
+  height: 90px;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-top: 23px;
+  border: none;
+
+}
+.wi-4 {
+  background-image: url(../images/FewClouds.png);
+  width: 100px;
+  height: 90px;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-top: 23px;
+  border: none;
+
+}
+.wi-5 {
+  background-image: url(../images/FewClouds.png);
+  width: 100px;
+  height: 90px;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-top: 23px;
+  border: none;
+
+}
+
+.next-week {
+  margin-top: 30px;
+}
+.week-temp {
+  margin-top: 30px;
+}
+
+
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+@media  (max-width: 1100px) {
+  .section-right {
+    position: absolute;
+    left: 66px;
+    top: 940px;
+    width: 860px;
+  }
+  #section-main-img {
+    width: 860px;
+
+  }
+  .section-2 {
+    left: 617px;
+    width: 305px;
+  }
+  .section-1 {
+    width: 543px;
+  }
+  #content-right {
+    width: 255px;
+    height: 234px;
+    margin: 60px 21px 0 0;
+  }
+  .ip {
+   margin-left: 100px;
+  }
+  .nd {
+    width: 840px;
+  }
+  .background {
+    width: 149vw;
+    height: 152vh;
+  }
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  .section-1 {
+    left: 11px;
+    width: 645px;
+  }
+  .content-temp {
+    font-size: 50px;
+  }
+  .content-name  {
+    font-size: 20px;
+  }
+  .content-name {
+    font-size: 16px;
+  }
+  #section-main-img {
+    left: 11px;
+    width: 329px;
+    height: 343px;
+  }
+  .section-2 {
+    left: 352px;
+    width: 305px;
+    top: 409px;
+  }
+  .temp {
+    margin: 139px 0 0 21px;
+  }
+  .section-right {
+    position: absolute;
+    left: 11px;
+    top: 764px;
+    width: 654px;
+  }
+  .nd {
+    width: 634px;
+  }
+}
+
+
+@media (max-width: 200px) {
+  .background {
+    background-position: -908px;
+    width: 357vw;
+    height: 355vh;
+  }
+}
+
+@media (max-width: 420px) {
+  .background {
+    background-position: -563px;
+    width: 169vw;
+    height: 161vh;
+  }
+}
+
+
+@media (max-width: 400px) {
+  #section-main-img {
+    width: 322px;
+  }
+  .section-2 {
+    left: 344px;
+  }
+  .section-1 {
+    width: 629px;
+  }
+  .section-right {
+    width: 633px;
+  }
+  .nd {
+    width: 613px;
+  }
+  .background {
+    background-position: -563px;
+    width: 169vw;
+    height: 161vh;
+  }
+}
+
+@media (max-width: 320px ) {
+  .background {
+    background-position: -263px;
+    width: 204vw;
+    height: 187vh;
+  }
+}
+@media (max-width: 360px ) {
+  .background {
+    background-position: -263px;
+    width: 204vw;
+    height: 187vh;
+  }
+}
+@media (max-width: 370px ) {
+  .background {
+    background-position: -263px;
+    width: 204vw;
+    height: 187vh;
+  }
+}
+@media (max-width: 290px ) {
+  .background {
+    background-position: -335px;
+    width: 227vw;
+    height: 223vh;
+  }
+}
+@media (max-width: 250px ) {
+  .background {
+    background-position: -335px;
+    width: 246vw;
+    height: 262vh;
+  }
+}
